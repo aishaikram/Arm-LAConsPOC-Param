@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "logicAppName": {
-      "value": "#logicappname#"
+      "value": "LAConsPOC"
     },
     "logicAppLocation": {
         "value": "UKSouth" 
     },
     "systemName": {
-        "value": "#systemAPIEndPoint#"
+        "value": "https://corona-virus-stats.herokuapp.com/api/v1/cases/countries-search"
     }
   }
 }
